@@ -8,7 +8,6 @@ turtle.pensize(15)
 turtle.speed(8)
 t.colormode(255)
 
-
 def random_color():
     r = random.randint(0,255)
     g = random.randint(0,255)

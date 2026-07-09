@@ -25,7 +25,7 @@ print(my_screen.canvheight)
 
 
 # ekrana tıkladığında kapanması için
-my_screen.exitonclick()
+# my_screen.exitonclick()
 
 # Pencerenin açık kalmasını sağlayan fonksiyonu koyuyoruz
 my_screen.mainloop()
