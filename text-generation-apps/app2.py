@@ -21,3 +21,14 @@ for chunk in response:
         print(chunk.choices[0].delta.content, end="", flush=True)
 print()
 
+
+"""
+
+chunk                         --> Gelen kargo kutusu
+  └── .choices[0]             --> Kutunun içindeki 1. alternatif paket
+        └── .delta            --> O paketin içindeki "yeni eklenen" kısım
+              └── .content    --> O kısmın içindeki asıl KARAKTER / KELİME ("Tavuk", "Merhaba" vb.)
+
+
+
+"""
