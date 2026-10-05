@@ -11,7 +11,6 @@ class Food(Turtle):
         self.color("blue")
         self.speed("fastest")
 
-        
         self.refresh()
 
     def refresh(self):
